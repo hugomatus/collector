@@ -1,0 +1,6 @@
+apiVersion: metrics.realtheory.io/v1
+kind: Snapshot
+metadata:
+  name: snapshot-sample
+spec:
+  # TODO(user): Add fields here

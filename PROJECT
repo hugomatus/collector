@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: collector
 repo: github.com/hugomatus/collector
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: realtheory.io
+  group: metrics
+  kind: Snapshot
+  path: github.com/hugomatus/collector/api/v1
+  version: v1
 version: "3"
