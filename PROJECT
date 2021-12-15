@@ -1,0 +1,6 @@
+domain: realtheory.io
+layout:
+- go.kubebuilder.io/v3
+projectName: collector
+repo: github.com/hugomatus/collector
+version: "3"
